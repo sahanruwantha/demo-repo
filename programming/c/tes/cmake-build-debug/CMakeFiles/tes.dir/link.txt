@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/tes.dir/main.cpp.o -o tes 
