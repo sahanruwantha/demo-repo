@@ -1,0 +1,79 @@
+architecture -> attributes visible to the programmer.(instruction set, I/O mechanisms, addressing techniques)
+Organization -> how features are implemented (control signals, interfaces, memory technology) 
+
+3 main subsystems -> CPU, Memory, I/O devices
+
+CPU -> execute the instructions in the main memory
+memory -> stores intruction , data, provide them to the processor
+I/O subsystem -> provides the means of communication between the computer system and the outside the world
+
+Registers -> hold instructions, data, variables temporarity
+            -> Genaral purpose registers -> hold data, variables, results
+            -> Special purpose registers -> addresses, instructions
+
+Control unit -> Genarate all the required control and timing signals
+
+Program Counter -> always it holds address of a memory location where next instruction is stored
+
+Instruction Register -> which holds the currrent instruction Exectuting
+
+Memory Address Register -> It works as a buffer in between external and internal address bus
+
+Memory Data Register -> It works as an intermediate unit in between external and internal data bus
+
+Accumulator -> It keeps results from opreations temporarily 
+
+Store Data Resgister -> Tranfer data to ALU
+
+Instruction Set -> Set of commands that a particular microprocessor can understand.
+
+program -> compiler -> assembler -> linker -> loader -> memory
+
+Stack -> reserved memory area used by cpu for special purposes 
+
+Stack pointer -> sp always points to the top loaction of the stack
+
+
+Memeory 
+
+Registers -> Cache -> Main Memory -> Magnetic disk
+
+Categories of memory -> Registers, primary memory -> secondary memory
+
+select memory cell -> Address bus, 
+Data in -> Data bus
+Write Signal -> Control bus
+
+Select the memory cell -> Address bus
+Read Signal -> Control bus
+Sense the Data -> data bus  
+
+sram -> built with flip flop circuits, consumes more power than stored charge desigh of the ram, volatile, does not need to constanlty refresh, used in cache memory
+dram -> it must be refreshed, or reenergied, hundred of times each second, used tiny capacitors
+
+
+functions perform by i/o interface
+
+
+device selection
+device status storage
+data storage
+data conditioning
+controlling
+
+Access decorder -> decodes the address provided by hte cpu and select the requried register within the interface for a read or write opreration
+Data register -> Provides a tempory store for the data being tranferred
+Status register -> this holds the status information of the io interface
+Timing and controll logic -> this generates all the required control singnals to carry out the data tranfer
+
+I/O addressing methods
+    Memory mapping 
+    I/O mapping 
+
+interrupts source recognition
+    software polling
+    hardware polling 
+
+
+
+
